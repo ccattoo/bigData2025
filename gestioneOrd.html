@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Artigiano</title>
+    <link rel="stylesheet" href="../css/gestione.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="homeArtigiano.html">
+                <h1>ARTIGIANATO ONLINE</h1>
+            </a>
+        </div>
+        <div class="search-bar">
+            <select>
+                <option>FILTRI</option>
+            </select>
+            <input type="text" placeholder="Cerca...">
+        </div>
+        <div class="buttons">
+            <button>
+                <i class="fas fa-bell"></i> Notifiche
+            </button>
+            <div>
+                <a href="Magazzino.html">
+                    <button>
+                        <i class="fas fa-warehouse"></i> Magazzino
+                    </button>
+                </a>
+            </div>
+            <div class="dropdown">
+                <button id="accountButton">
+                    <i class="fas fa-user"></i> Account
+                </button>
+                <div class="dropdown-content">
+                    <a href="accountArt.html">Il mio Account</a>
+                    <a href="gestioneOrd.html">Gestione ordini</a>
+                    <a href="caricaProdotti.html">Vendi prodotti</a>
+                    <a href="logout.html">Esci</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="barraLaterale">
+            <div class="account-info">
+                <h3>Ordini</h3>
+                <ul>
+                    <li><a href="#ordini-attivi">Ordini in corso</a></li>
+                    <li><a href="#ordini-passati">Ordini passati</a></li>
+                </ul>
+            </div>
+            <div class="back-buttons-container">
+                <button class="backutton" onclick="location.href='Magazzino.html'">Torna al magazzino</button>
+                <button class="backutton" onclick="location.href='homeArtigiano.html'">Torna alla home</button>
+            </div>
+            
+        </div>
+
+        <div class="contenutoPrincipale">
+            <h1>Gestione Ordini</h1>
+
+            <fieldset id="ordini-attivi">
+                <legend>Ordini Attivi</legend>
+                <h3>Nome Prodotto 1</h3>
+                <p class="descrizione">
+                    Descrizione: Questo è un prodotto di esempio. È realizzato con materiali di alta qualità e offre
+                    prestazioni eccezionali. Perfetto per ogni occasione.
+                </p>
+
+                <h4>Informazioni:</h4>
+                <div class="campo">
+                    <label for="prezzo-attivo">Prezzo:</label>
+                    <input type="text" id="prezzo-attivo" name="prezzo-attivo" value="19.99" disabled>
+                </div>
+
+                <div class="campo">
+                    <label for="materiali-attivo">Materiale:</label>
+                    <input type="text" id="materiali-attivo" name="materiali-attivo" value="ferro" disabled>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="dimensione-attivo">Dimensione:</label>
+                    <input type="text" id="colore-attivo" name="colore-attivo" value="grosso piu grosso" disabled>
+                </div>
+
+                <div class="campo">
+                    <label for="colore-attivo">Colore:</label>
+                    <input type="text" id="colore-attivo" name="colore-attivo" value="rosso" disabled>
+                </div>
+            </fieldset>
+
+            <fieldset id="ordini-passati">
+                <legend>Ordini Passati</legend>
+                <h3>Nome Prodotto 1</h3>
+                <p class="descrizione">
+                    Descrizione: Questo è un prodotto di esempio. È realizzato con materiali di alta qualità e offre
+                    prestazioni eccezionali. Perfetto per ogni occasione.
+                </p>
+
+                <h4>Informazioni:</h4>
+                <div class="campo">
+                    <label for="prezzo-passato">Prezzo:</label>
+                    <input type="text" id="prezzo-passato" name="prezzo-passato" value="19.99" disabled>
+                </div>
+
+                <div class="campo">
+                    <label for="materiali-attivo">Materiale:</label>
+                    <input type="text" id="materiali-attivo" name="materiali-attivo" value="ferro" disabled>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="dimensione-attivo">Dimensione:</label>
+                    <input type="text" id="colore-attivo" name="colore-attivo" value="grosso piu grosso" disabled>
+                </div>
+
+                <div class="campo">
+                    <label for="colore-attivo">Colore:</label>
+                    <input type="text" id="colore-attivo" name="colore-attivo" value="rosso" disabled>
+                </div>
+            </fieldset>
+        </div>
+
+        <!-- <fieldset id="ordini-attivi-fieldset">
+    <legend>Ordini Attivi</legend>
+    <div id="ordini-attivi-list">
+        Qui verranno aggiunti gli ordini attivi
+    </div>
+</fieldset>
+
+<fieldset id="ordini-passati-fieldset">
+    <legend>Ordini Passati</legend>
+    <div id="ordini-passati-list">
+         Qui verranno aggiunti gli ordini passati
+    </div>
+</fieldset>
+-->
+    </main>
+
+    <footer>
+        <div>
+            <div class="contatti">
+                <h4>CONTATTI</h4>
+                <ul>
+                    <li>Telefono: 123456789</li>
+                    <li>Email: assistenzaonline@gmail.com</li>
+                </ul>
+            </div>
+            <button onclick="location.href='assistenza.html'">ASSISTENZA</button>
+            <button onclick="location.href='registrazione.html'">VENDI CON NOI</button>
+        </div>
+    </footer>
+</body>
+
+</html>

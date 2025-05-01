@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Artigiano</title>
+    <link rel="stylesheet" href="../css/homeArtigiano.css">
+
+</html>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="homeArtigiano.html">
+                <h1>ARTIGIANATO ONLINE</h1>
+            </a>
+        </div>
+        <div class="search-bar">
+            <select>
+                <option>FILTRI</option>
+            </select>
+            <input type="text" placeholder="Cerca...">
+        </div>
+        <div class="buttons">
+            <button>
+                <i class="fas fa-bell"></i> Notifiche
+            </button>
+
+            <div>
+                <a href="Magazzino.html">
+                    <button>
+                        <i class="fas fa-warehouse"></i> Magazzino
+                    </button>
+                </a>
+            </div>
+
+            <div class="dropdown">
+                    <button><i class="fas fa-user"></i> Account</button>
+                    <div class="dropdown-content">
+                        <a href="accountArt.html">Il mio Account</a>
+                        <a href="gestioneOrd.html">Gestione ordini</a>
+                        <a href="caricaProdotti.html">Vendi prodotti</a>
+                        <a href="logout.html">Esci</a>
+                    </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="filtro-container">
+            <div class="select-wrapper">
+                <label for="cate">Categorie:</label>
+                <select id="cate" name="categoria" required>
+                    <option value="">-- Seleziona --</option>
+                </select>
+            </div>
+
+            
+        </div>
+
+        <div class="miei-prodotti">
+            <h1>I MIEI PRODOTTI</h1>
+            <div>
+                <h3>nome prodotto</h3>
+                <ul>
+                    <li>Prezzo</li>
+                    <li>Descrizione</li>
+                    <li>Immagine</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="prodotti">
+            <h1>PRODOTTI SIMILI</h1>
+            <div>
+                <h3>nome prodotto</h3>
+                <ul>
+                    <li>Prezzo</li>
+                    <li>Descrizione</li>
+                    <li>Immagine</li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div>
+            <div class="contatti">
+                <h4>CONTATTI</h4>
+                <ul>
+                    <li>Telefono: 123456789</li>
+                    <li> Email: assistenzaonline@gmail.com </li>
+                </ul>
+            </div>
+            <button onclick="location.href='assistenza.html'">ASSISTENZA</button>
+            <button onclick="location.href='registrazione.html'">VENDI CON NOI</button>
+        </div>
+    </footer>
+</body>
+
+</html>

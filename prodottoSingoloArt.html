@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/prodottoArt.css">
+    <title>Prodotto</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="homeArtigiano.html">
+                <h1>ARTIGIANATO ONLINE</h1>
+            </a>
+        </div>
+        <div class="search-bar">
+            <select>
+                <option>FILTRI</option>
+            </select>
+            <input type="text" placeholder="Cerca...">
+        </div>
+        <div class="buttons">
+            <button>
+                <i class="fas fa-bell"></i> Notifiche
+            </button>
+
+            <div>
+                <a href="Magazzino.html">
+                    <button>
+                        <i class="fas fa-warehouse"></i> Magazzino
+                    </button>
+                </a>
+            </div>
+
+            <div class="dropdown">
+                <button id="accountButton">
+                    <i class="fas fa-user"></i> Account
+                </button>
+                <div class="dropdown-content">
+                    <a href="accountArt.html">Il mio Account</a>
+                    <a href="gestioneOrd.html">Gestione ordini</a>
+                    <a href="caricaProdotti.html">Carica prodotti</a>
+                    <a href="logout.html">Esci</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <aside class="sidebar">
+            <h3>Scorciatoie</h3>
+            <button class="back-button" onclick="location.href='homeArtigiano.html'">Torna alla home</button>
+            <button class="back-button" onclick="location.href='Magazzino.html'">Magazzino</button>
+        </aside>
+
+        <div class="container">
+            <fieldset class="dettagli-prodotto">
+                <legend>Dettagli</legend>
+                <div class="info-prodotto">
+                    <img src="../img/prodotto1.jpg" alt="Prodotto 1">
+                    <h3>Nome Prodotto 1</h3>
+                    <p class="descrizione">
+                        Descrizione: Questo è un prodotto di esempio. È realizzato con materiali di alta
+                        qualità e offre prestazioni eccezionali. Perfetto per ogni occasione.
+                    </p>
+
+                    <h4>Informazioni:</h4>
+                    <div class="campo">
+                        <label for="Prezzo">Prezzo:</label>
+                        <input type="text" id="Prezzo" name="Prezzo" value="19.99" disabled>
+                    </div>
+
+                    <div class="campo">
+                        <label for="materiali">Materiale:</label>
+                        <select id="materiali" name="materiali">
+                            <option value="">-- Seleziona --</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label for="Dimensione">Dimensione:</label>
+                        <select id="Dimensione" name="Dimensione">
+                            <option value="">-- Seleziona --</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label for="Colore">Colore:</label>
+                        <select id="colore" name="colore">
+                            <option value="">-- Seleziona --</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label for="Disponibilità">Disponibilità:</label>
+                        <input type="text" id="Disponibilità" name="Disponibilità" value="si" disabled>
+                    </div>
+                </div>
+
+                <!-- Pulsanti di modifica e salvataggio all'interno del fieldset -->
+                <div class="button-group">
+                    <button class="backutton">
+                        Modifica Prodotto
+                    </button>
+                    <button class="backutton">
+                        Salva modifiche
+                    </button>
+                </div>
+            </fieldset>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <div class="contatti">
+                <h4>CONTATTI</h4>
+                <ul>
+                    <li>Telefono: 123456789</li>
+                    <li> Email: assistenzaonline@gmail.com </li>
+                </ul>
+            </div>
+            <button onclick="location.href='assistenza.html'">ASSISTENZA</button>
+            <button onclick="location.href='registrazione.html'">VENDI CON NOI</button>
+        </div>
+    </footer>
+</body>
+
+</html>
