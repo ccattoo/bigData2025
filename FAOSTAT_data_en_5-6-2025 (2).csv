@@ -1,0 +1,12 @@
+﻿Domain Code;Domain;Area Code (M49);Area;Element Code;Element;Item Code (CPC);Item;Year Code;Year;Unit;Value;Flag;Flag Description;Note
+QCL;Crops and livestock products;840;United States of America;5111;Stocks;2132;Asses;2023;2023;An;51973;I;Imputed value;
+QCL;Crops and livestock products;840;United States of America;5114;Stocks;2196;Bees;2023;2023;No;2509000;A;Official figure;
+QCL;Crops and livestock products;840;United States of America;5111;Stocks;2111;Cattle;2023;2023;An;88841000;A;Official figure;
+QCL;Crops and livestock products;840;United States of America;5112;Stocks;2151;Chickens;2023;2023;1000 An;1526000;E;Estimated value;
+QCL;Crops and livestock products;840;United States of America;5112;Stocks;2154;Ducks;2023;2023;1000 An;7996;I;Imputed value;
+QCL;Crops and livestock products;840;United States of America;5111;Stocks;2123;Goats;2023;2023;An;2527000;A;Official figure;
+QCL;Crops and livestock products;840;United States of America;5111;Stocks;2131;Horses;2023;2023;An;6347486;I;Imputed value;
+QCL;Crops and livestock products;840;United States of America;5111;Stocks;2133;Mules and hinnies;2023;2023;An;;M;Missing value (data cannot exist, not applicable);
+QCL;Crops and livestock products;840;United States of America;5111;Stocks;2122;Sheep;2023;2023;An;5130000;A;Official figure;
+QCL;Crops and livestock products;840;United States of America;5111;Stocks;2140;Swine / pigs;2023;2023;An;75816300;A;Official figure;
+QCL;Crops and livestock products;840;United States of America;5112;Stocks;2152;Turkeys;2023;2023;1000 An;73000;E;Estimated value;
